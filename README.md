@@ -183,5 +183,7 @@ html içerisindeki **_ui.html_** dosyasını açıp **_id="qbcore-inventory"_** 
 <div align="center">
   <h1>🎉 Result 🎉</h1>
 </div>
-<img align="center" alt="Game Image" src="https://cdn.discordapp.com/attachments/833938679125770240/953446729154445322/unknown.png"/>
+<img align="center" alt="Game Image - 1" src="https://cdn.discordapp.com/attachments/833938679125770240/953446729154445322/unknown.png"/>
+<img align="center" alt="Game Image - 2" src="https://cdn.discordapp.com/attachments/833938679125770240/953450782966054922/unknown.png"/>
+
 
