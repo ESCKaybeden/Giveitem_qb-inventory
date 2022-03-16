@@ -183,7 +183,7 @@ html içerisindeki **_ui.html_** dosyasını açıp id="qbcore-inventory" kısm�
 
 
 <div align="center">
-  <h1>Result</h1>
+  <h1>🎉 Result 🎉</h1>
 </div>
 ![Game Image](https://cdn.discordapp.com/attachments/833938679125770240/953446729154445322/unknown.png)
 
