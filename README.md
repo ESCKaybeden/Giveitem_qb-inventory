@@ -2,12 +2,15 @@
   <h1>ESCKaybeden</h1>
 </div>
 
+- **_ESCKaybeden#0488_**
+- [Youtube](https://www.youtube.com/channel/UCwmyBjDNow69-4A2jCRe4Sg).
+
 ## Türkçe
 
 
 #### Client
 
-client/main.lua dosyasını açıp en alt satıra yapıştırın
+**_client/main.lua_** dosyasını açıp en alt satıra yapıştırın
 ```lua
     RegisterNUICallback("GiveItem0", function(data, cb)
         local closestPlayer, closestDistance = QBCore.Functions.GetPlayersFromCoords(GetEntityCoords(PlayerPedId()), 3)
@@ -37,7 +40,7 @@ client/main.lua dosyasını açıp en alt satıra yapıştırın
 
 #### Server
 
-server/main.lua dosyasını açıp en alt satıra yapıştırın
+**_server/main.lua_** dosyasını açıp en alt satıra yapıştırın
 ```lua
     QBCore.Functions.CreateCallback('GetPlayers', function(source,cb,id)
       local Player = QBCore.Functions.GetPlayer(id).PlayerData.charinfo
@@ -84,7 +87,7 @@ server/main.lua dosyasını açıp en alt satıra yapıştırın
 
 #### JavaScript
 
-html/js/app.js dosyasını açıp crtl + f tuşlarına basıp sağ üst tarafta açılan arama kısmına "#item-give" yazıp çıkan kısımda ki kodu değiştirin
+**_html/js/app.js_** dosyasını açıp crtl + f tuşlarına basıp sağ üst tarafta açılan arama kısmına "#item-give" yazıp çıkan kısımda ki kodu değiştirin
 ```js
     $("#item-give").droppable({hoverClass: "button-hover",
         drop: function(event, ui) {
@@ -121,7 +124,7 @@ html/js/app.js dosyasını açıp crtl + f tuşlarına basıp sağ üst tarafta 
 
 #### html
 
-html içerisindeki ui.html dosyasını açıp id="qbcore-inventory" kısmının bir alt satırında boş yer oluşturup yapıştırın
+html içerisindeki **_ui.html_** dosyasını açıp id="qbcore-inventory" kısmının bir alt satırında boş yer oluşturup yapıştırın
 ```html
     <div class="GiveItembox">
         <div class="GiveItemPlayers"></div>
@@ -130,7 +133,7 @@ html içerisindeki ui.html dosyasını açıp id="qbcore-inventory" kısmının 
 
 #### css
 
-html/css/main.css dosyasını açıp en alt satıra yapıştırın
+**_html/css/main.css_** dosyasını açıp en alt satıra yapıştırın
 
 ```css
     .GiveItembox {
