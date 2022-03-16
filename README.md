@@ -3,7 +3,8 @@
 </div>
 
 - **_ESCKaybeden#0488_**
-- [Youtube](https://www.youtube.com/channel/UCwmyBjDNow69-4A2jCRe4Sg).
+- [**_Youtube_**](https://www.youtube.com/channel/UCwmyBjDNow69-4A2jCRe4Sg)
+- [**Discord**](https://discord.gg/2drcthqyAF)
 
 ## Türkçe
 
