@@ -88,7 +88,7 @@ end)
 
 #### JavaScript
 
-**_html/js/app.js_** dosyasını açıp crtl + f tuşlarına basıp sağ üst tarafta açılan arama kısmına "#item-give" yazıp çıkan kısımda ki kodu değiştirin
+**_html/js/app.js_** dosyasını açıp crtl + f tuşlarına basıp sağ üst tarafta açılan arama kısmına *_"#item-give"_* yazıp çıkan kısımda ki kodu değiştirin
 ```js
 $("#item-give").droppable({hoverClass: "button-hover",
     drop: function(event, ui) {
@@ -125,7 +125,7 @@ $("#item-give").droppable({hoverClass: "button-hover",
 
 #### html
 
-html içerisindeki **_ui.html_** dosyasını açıp id="qbcore-inventory" kısmının bir alt satırında boş yer oluşturup yapıştırın
+html içerisindeki **_ui.html_** dosyasını açıp *_id="qbcore-inventory"_* kısmının bir alt satırında boş yer oluşturup yapıştırın
 ```html
 <div class="GiveItembox">
     <div class="GiveItemPlayers"></div>
@@ -138,7 +138,7 @@ html içerisindeki **_ui.html_** dosyasını açıp id="qbcore-inventory" kısm�
 
 ```css
 .GiveItembox {
-	display: none;
+    display: none;
     position: absolute;
     height: 13em;
     width: 16em;
@@ -148,9 +148,9 @@ html içerisindeki **_ui.html_** dosyasını açıp id="qbcore-inventory" kısm�
     top: 0;
     bottom: 0;
     background: #1e1e1eaa;
-	border-radius: .2em;
+    border-radius: .2em;
     z-index: 560;
-	overflow-y: scroll;
+    overflow-y: scroll;
 }
 
 .GiveItemPlayersButton {
@@ -165,12 +165,10 @@ html içerisindeki **_ui.html_** dosyasını açıp id="qbcore-inventory" kısm�
     text-align: center;
     line-height: 30px;
     border: none;
-	border-bottom: 1px solid #46464676;
-	transition: 300ms all;
+    border-bottom: 1px solid #46464676;
+    transition: 300ms all;
 }
-.GiveItemPlayersButton:hover {
-    background-color: rgba(34, 29, 46, 0.8);
-}
+.GiveItemPlayersButton:hover { background-color: rgba(34, 29, 46, 0.8); }
 ```
 
 
