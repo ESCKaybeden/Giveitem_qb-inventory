@@ -148,17 +148,17 @@ html içerisindeki **_ui.html_** dosyasını açıp id="qbcore-inventory" kısm�
         top: 0;
         bottom: 0;
         background: #1e1e1eaa;
+      border-radius: .2em;
         /* backdrop-filter: blur(.2em); */
         z-index: 560;
       overflow-y: scroll;
     }
 
-    .GiveItemPlayers {
+    .GiveItemPlayersButton {
         width: 100%;
-        display: block;
         text-decoration: none;
         color: rgba(255, 255, 255, 0.719);
-        background-color: rgba(63, 57, 83, 0.226);
+        background-color: #3030305a;
         text-shadow: none; 
         font-size: 14px !important;
         outline: none;
@@ -166,8 +166,10 @@ html içerisindeki **_ui.html_** dosyasını açıp id="qbcore-inventory" kısm�
         text-align: center;
         line-height: 30px;
         border: none;
+      border-bottom: 1px solid #46464676;
+      transition: 300ms all;
     }
-    .GiveItemPlayers:hover {
+    .GiveItemPlayersButton:hover {
         background-color: rgba(34, 29, 46, 0.8);
     }
 ```
