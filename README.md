@@ -88,7 +88,7 @@ end)
 
 #### JavaScript
 
-**_html/js/app.js_** dosyasını açıp crtl + f tuşlarına basıp sağ üst tarafta açılan arama kısmına *_"#item-give"_* yazıp çıkan kısımda ki kodu değiştirin
+**_html/js/app.js_** dosyasını açıp crtl + f tuşlarına basıp sağ üst tarafta açılan arama kısmına **_"#item-give"_** yazıp çıkan kısımda ki kodu değiştirin
 ```js
 $("#item-give").droppable({hoverClass: "button-hover",
     drop: function(event, ui) {
@@ -125,7 +125,7 @@ $("#item-give").droppable({hoverClass: "button-hover",
 
 #### html
 
-html içerisindeki **_ui.html_** dosyasını açıp *_id="qbcore-inventory"_* kısmının bir alt satırında boş yer oluşturup yapıştırın
+html içerisindeki **_ui.html_** dosyasını açıp **_id="qbcore-inventory"_** kısmının bir alt satırında boş yer oluşturup yapıştırın
 ```html
 <div class="GiveItembox">
     <div class="GiveItemPlayers"></div>
