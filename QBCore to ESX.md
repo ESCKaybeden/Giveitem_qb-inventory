@@ -61,10 +61,10 @@ RegisterServerEvent("inventory:server:GiveItem0", function(target, name, amount)
 			amount = name.amount
 		end
 		if OtherPlayer.addInventoryItem(name.name, amount, false, name.info) then
-			TriggerClientEvent('inventory:client:ItemBox',target, ESX.Items[name.name], "add")
+			TriggerClientEvent('inventory:client:ItemBox',target, ESX.Items[name.name], "add", amount)
 			TriggerClientEvent("inventory:client:UpdatePlayerInventory", target, true)
 			Player.removeInventoryItem(name.name, amount, name.slot)
-			TriggerClientEvent('inventory:client:ItemBox',src, ESX.Items[name.name], "remove")
+			TriggerClientEvent('inventory:client:ItemBox',src, ESX.Items[name.name], "remove", amount)
 			TriggerClientEvent("inventory:client:UpdatePlayerInventory", src, true)
 			TriggerClientEvent('qb-inventory:client:giveAnim', src)
 			TriggerClientEvent('qb-inventory:client:giveAnim', target)
