@@ -17,7 +17,7 @@ RegisterNUICallback("GiveItem0", function(data, cb)
     local closestPlayer, closestDistance = ESX.Game.GetPlayersInArea(GetEntityCoords(PlayerPedId()), 3)
     local Players = {}
     for sayi,esc in pairs(closestPlayer) do
-        if GetPlayerServerId(esc) == GetPlayerServerId(PlayerId()) then
+        if GetPlayerServerId(esc) ~= GetPlayerServerId(PlayerId()) then
             ESX.TriggerServerCallback('GetPlayers', function(props)
                 table.insert(Players, {props = props, id = GetPlayerServerId(esc)})
                 cb({Players = Players,Item = data.item})
@@ -32,8 +32,6 @@ RegisterNUICallback("GiveItem1", function(data, cb)
         if GetPlayerServerId(esc) ~= data.player then
             SetCurrentPedWeapon(playerPed,'WEAPON_UNARMED',true)
             TriggerServerEvent("inventory:server:GiveItem0", data.player, data.item, data.amount)
-        else
-            QBCore.Functions.Notify("Failed", "Yakınında kimse yok!")
         end
     end
 end)
